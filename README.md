@@ -10,3 +10,4 @@
     *   **Android com emulador:** 10.0.2.2 (Android studio)
     *   **Android com emulador:** 10.0.3.2 (Genymotion)
     *   **Android com físico:** ip da máquina
+*   Utilização de componentes SafeAreaView, FlatList, TouchableOpacity
