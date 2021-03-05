@@ -6,11 +6,14 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
+    "expo": "expo start",
     "test": "jest",
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-community/cli": "^4.14.0",
     "axios": "^0.21.1",
+    "expo": "^40.0.1",
     "react": "17.0.1",
     "react-native": "0.63.4"
   },
@@ -22,7 +25,7 @@
     "eslint": "^7.21.0",
     "jest": "^26.6.3",
     "jetifier": "^1.6.6",
-    "metro-react-native-babel-preset": "^0.65.1",
+    "metro-react-native-babel-preset": "^0.65.2",
     "react-test-renderer": "17.0.1"
   },
   "jest": {
