@@ -18,53 +18,28 @@
 
 Neste projeto você pode executar:
 
-### `npm install`
+| Comando | Descrição |
+| ------  | ------ |
+| `npm install` | Instala as dependências contidas no arquivo package.json para o diretório node_modules |
+| `react-native info` | Verifica se as dependências do ambiente de desenvolvimento são satisfatórias |
+| `npm run build-dev` | Gera os arquivos necessários para modo desenvolvimento |
+| `npm start` | Inicia o servidor de desenvolvimento do Metro que irá para possibilitar a execução da app no emulador iOS ou Android  |
+| `npm run android` | Abre a aplicação no AVD(Android virtual device) ou em um dispositivo android conectador por USB |
+| `npm run ios` | Abre a aplicação no emulador iOS |
 
-Instala as dependências contidas no arquivo package.json para o diretório node_modules
-
-```bash
-$ npm install
-```
-
-### `react-native info`
-
-Gera os arquivos necessários para modo produção
-
-```bash
-$ react-native info
-```
-
-### `npm run build-dev`
-
-Gera os arquivos necessários para modo desenvolvimento
-
-```bash
-$ npm run build-dev
-```
-
-### `npm start`
-
-Executa o projeto em modo desenvolvimento
-
-```bash
-$ npm start
-```
 
 ## Solução para possíveis erros
-
 > **Error:** spawn ./gradlew EACCES
+>> **Solução**
+>> `$ chmod 755 android/gradlew`
 
-```bash
-$ chmod 755 android/gradlew
-```
+
 
 > **ReferenceError:** SHA-1 for file /home/USER/.nvm/versions/node/v14.15.4/lib/node_modules/react-native/node_modules/metro/src/lib/polyfills/require.js (/home/USER/.nvm/versions/node/v14.15.4/lib/node_modules/react-native/node_modules/metro/src/lib/polyfills/require.js) is not computed
-
-```bash
-$ npm install -i -g --force react-native-cli
-```
+>> **Solução**
+>> `$ npm install -i -g --force react-native-cli`
 
 > **Error:** Network Error
 > Possible Unhandled Promise Rejection
-
-No arquivo api.js altere o baseUrl com ip da sua máquina na rede
+>> **Solução**
+>> No arquivo api.js altere o baseUrl com ip da sua máquina na rede.
