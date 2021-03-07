@@ -27,6 +27,7 @@ Neste projeto você pode executar:
 | `npm run android` | Abre a aplicação no AVD(Android virtual device) ou em um dispositivo android conectador por USB |
 | `npm run ios` | Abre a aplicação no emulador iOS |
 
+<br>
 
 ## Solução para possíveis erros
 > **Error:** spawn ./gradlew EACCES
