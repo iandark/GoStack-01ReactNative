@@ -14,6 +14,8 @@
 
 **Para esta aplicação é necessário que o projeto [GoStack-01NodeJS](https://github.com/iandark/GoStack-01NodeJS) esteja em execução.**
 
+<br>
+
 ## Scripts disponíves
 
 Neste projeto você pode executar:
