@@ -33,11 +33,13 @@ Neste projeto você pode executar:
 >> **Solução**
 >> `$ chmod 755 android/gradlew`
 
-
+<br>
 
 > **ReferenceError:** SHA-1 for file /home/USER/.nvm/versions/node/v14.15.4/lib/node_modules/react-native/node_modules/metro/src/lib/polyfills/require.js (/home/USER/.nvm/versions/node/v14.15.4/lib/node_modules/react-native/node_modules/metro/src/lib/polyfills/require.js) is not computed
 >> **Solução**
 >> `$ npm install -i -g --force react-native-cli`
+
+<br>
 
 > **Error:** Network Error
 > Possible Unhandled Promise Rejection
